@@ -9,7 +9,6 @@ from typing import List, Union
         - Resolver de manera recursiva
     """
 
-
 def maximo_recursivo(*args) -> float:
     if len(args) == 1:
         # Caso base: si solo queda un elemento, devolverlo
